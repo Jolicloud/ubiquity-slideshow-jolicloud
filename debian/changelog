@@ -1,0 +1,127 @@
+ubiquity-slideshow-ubuntu (10) karmic; urgency=low
+
+  * Update translations from Launchpad (LP: #452889).
+
+ -- Evan Dandrea <evand@ubuntu.com>  Fri, 23 Oct 2009 07:52:44 +0100
+
+ubiquity-slideshow-ubuntu (9) karmic; urgency=low
+
+  [ Evan Dandrea ]
+  * The version of Firefox shipped with Ubuntu 9.10 is 3.5, not 3.0
+    (LP: #442832).
+  * Add an Ubuntu One slide.
+  * Freeze exception (LP: #447383).
+  * Updated Ubuntu and Ubuntu One logo license (LP: #451263).
+  * Updated translations from Launchpad (source package).
+
+  [ Dylan McCall ]
+  * Merged middle-tweaks branch. Freeze exception (LP: #445102)
+  * New strings for firefox.html, fspot.html, rhythmbox-totem.html,
+    evolution.html, empathy.html, openoffice.html, accessibility.html,
+    installing-software.html.
+  * Changed order of slideshow; multimedia stuff slide appears first,
+    accessibility near the end, before Installing Software.
+  * Breathe icons have been replaced with icons from the Humanity icon theme:
+    accessibility.svg, evolution.svg, fspot.svg, help.svg, openoffice.svg
+    (LP: #428169)
+  * Breathe icon fspot.svg has been replaced with its counterpart from the
+    fspot source package.
+  * Removed banshee.svg from source tree and removed mention of nonexistent
+    icons from debian/copyright.
+  * Updated translation templates for new slides.
+
+  [ Daniel Holbert ]
+  * Made images in slideshow non-draggable to work around pywebkitgtk crash
+    (LP: #448703).
+
+ -- Evan Dandrea <evand@ubuntu.com>  Thu, 15 Oct 2009 11:50:19 +0100
+
+ubiquity-slideshow-ubuntu (8) karmic; urgency=low
+
+  [ Dylan McCall ]
+  * Changed "Software Store" to "Software Center" since it has been renamed.
+
+  [ Evan Dandrea ]
+  * Updated translations from Launchpad.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Fri, 02 Oct 2009 12:28:50 +0100
+
+ubiquity-slideshow-ubuntu (7) karmic; urgency=low
+
+  [ Dylan McCall ]
+  * Updated translation templates. The template for installing-software.html
+    is entirely changed and should be translated again at some point. (Sorry,
+    translators!) welcome.html and documentation.html are not quite as major,
+    but if they were translated word-for-word they could probably use a
+    do-over.
+  * Merging my recent changes, including revised welcome and farewell slides.
+
+  [ Evan Dandrea ]
+  * Freeze exception (LP: #436063).
+  * Update translations from Launchpad.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Fri, 25 Sep 2009 10:16:31 -0700
+
+ubiquity-slideshow-ubuntu (6) karmic; urgency=low
+
+  [ Evan Dandrea ]
+  * The buildds do not install recommends by default, so add a build
+    dependency on python-utidylib (LP: #430719).
+  * Add the Firefox icon and a javascript-based reflection for it
+    (LP: #421864).
+  * Updated translations from Launchpad.
+
+  [ Dylan McCall ]
+  * Fixed comma splice in documentation.html
+  * Corrected missing "with" in the third bullet point. Fixed title
+    (LP: #427257, #427254).
+  * Makefile now checks if po2html is installed and exits (slightly more)
+    gracefully, albeit with rather horrendous looking output :)
+  * Added --progress=names when calling po2html. Makefile output is now a bit
+    tidier.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Thu, 17 Sep 2009 17:16:20 +0100
+
+ubiquity-slideshow-ubuntu (5) karmic; urgency=low
+
+  * Updated translations from Launchpad.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Thu, 10 Sep 2009 12:19:29 +0100
+
+ubiquity-slideshow-ubuntu (4) karmic; urgency=low
+
+  * Replace reference to 'Ubuntu Linux' with the correct title for the
+    project, 'Ubuntu'.
+  * Clean up generate-pot-files.sh.  Don't generate a pot for index.html.
+  * Replace Pidgin slide with an Empathy slide.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Mon, 07 Sep 2009 10:29:03 +0100
+
+ubiquity-slideshow-ubuntu (3) karmic; urgency=low
+
+  * Move translate-toolkit and gimp to build-deps-indep.
+  * Removing trailing comma from dependencies.
+  * Drop coreutils dependency as it's in essential.
+  * Use the proper Vcs-Bzr field, rather than the old XS-Vcs-Bzr.
+  * Replace entire GPL-2 copyright with a pointer to common-licenses.
+  * Bump standards version to 3.8.3.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Mon, 24 Aug 2009 10:04:37 +0100
+
+ubiquity-slideshow-ubuntu (2) karmic; urgency=low
+
+  * Initial release in Ubuntu.
+
+ -- Evan Dandrea <evand@ubuntu.com>  Tue, 18 Aug 2009 12:01:31 +0100
+
+ubiquity-slideshow-ubuntu (1-0~ppa2) karmic; urgency=low
+
+  * Added new build dependency: translate-toolkit.
+
+ -- Dylan McCall <dylanmccall@gmail.com>  Thu,  2 Jul 2009 20:25:00 -0800
+
+ubiquity-slideshow-ubuntu (1-0~ppa1) karmic; urgency=low
+
+  * Initial release.
+
+ -- Dylan McCall <dylanmccall@gmail.com>  Tue,  16 Jun 2009 16:37:00 -0800

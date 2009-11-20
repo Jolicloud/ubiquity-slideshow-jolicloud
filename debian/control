@@ -1,17 +1,15 @@
-Source: ubiquity-slideshow-ubuntu
+Source: ubiquity-slideshow-jolicloud
 Section: x11
 Priority: optional
-Maintainer: Ubiquity Slideshow Team <ubiquity-slideshow@lists.launchpad.net>
+Maintainer: Jolicloud Developers <developer@jolicloud.org>
 Build-Depends: cdbs, debhelper (>= 5)
 Build-Depends-Indep: translate-toolkit, gimp, python-utidylib
-Vcs-Bzr: https://code.launchpad.net/~ubiquity-slideshow/ubiquity-slideshow-ubuntu/html
 Standards-Version: 3.8.3
-Homepage: https://launchpad.net/ubiquity-slideshow-ubuntu
 
-Package: ubiquity-slideshow-ubuntu
+Package: ubiquity-slideshow-jolicloud
 Architecture: all
 Provides: ubiquity-slideshow
 Depends: ${misc:Depends}
-Description: Ubiquity slideshow for Ubuntu
+Description: Ubiquity slideshow for Jolicloud
  A slideshow intended for the Ubiquity installer, designed as a quick 
- introduction to Ubuntu.
+ introduction to Jolicloud.

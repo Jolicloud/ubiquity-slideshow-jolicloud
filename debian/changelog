@@ -1,3 +1,9 @@
+ubiquity-slideshow-jolicloud (10jolicloud1) robby; urgency=low
+
+  * Rebranded as ubiquity-slideshow-jolicloud
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 19 Nov 2009 22:29:28 -0700
+
 ubiquity-slideshow-ubuntu (10) karmic; urgency=low
 
   * Update translations from Launchpad (LP: #452889).

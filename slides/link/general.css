@@ -3,10 +3,10 @@ html, body
 	margin:0;
 	padding:0;
 	
-	background-color:#2e3436;
+	background-color:#333642;
 	
 	font-family:sans-serif;
-	color:#000000;
+	color:#a5a8b3;
 }
 
 /*
@@ -31,7 +31,7 @@ a
 	background-repeat:no-repeat;
 	background-position:top left;
 	
-	background-color:#fdfdfd;
+	background-color:#333642;
 	
 	/*cursor:default;*/
 }
@@ -61,14 +61,15 @@ Title block is positioned at the top of a slide.
 .title
 {
 	position:absolute;
-	top:15px;
-	left:10px;
+	top:129px;
+	left:236px;
 
 	font-size:20px;
 	font-weight:normal;
 
 	padding:0;
 	margin:0;
+	color:#ffffff;
 }
 
 /*
@@ -98,7 +99,7 @@ appear :)
 {
 	position:absolute;
 	
-	top:50px;
+	top:164px;
 	left:0px;
 
     padding-right:60px;
@@ -115,10 +116,10 @@ margins around it.
 */
 .main .content
 {
-	padding-left:16px;
+	padding-left:236px;
 	padding-right:16px;
 	
-	width:490px;
+/* 	width:490px; */
 }
 
 .content ul

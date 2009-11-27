@@ -61,10 +61,10 @@ Title block is positioned at the top of a slide.
 .title
 {
 	position:absolute;
-	top:129px;
-	left:236px;
+	top:100px;
+	left:250px;
 
-	font-size:20px;
+	font-size:28px;
 	font-weight:normal;
 
 	padding:0;
@@ -83,8 +83,8 @@ right of a slide and is given a size of 64x64 pixels.
 	width:auto;
 	height:auto;
 	
-	bottom:-420px;
-	right:10px;
+	top:120px;
+	left:0px;
 	
 	z-index:11;
 	border:0px;
@@ -99,7 +99,7 @@ appear :)
 {
 	position:absolute;
 	
-	top:164px;
+	top:134px;
 	left:0px;
 
     padding-right:60px;
@@ -116,7 +116,7 @@ margins around it.
 */
 .main .content
 {
-	padding-left:236px;
+	padding-left:250px;
 	padding-right:16px;
 	
 /* 	width:490px; */
@@ -126,12 +126,13 @@ margins around it.
 {
 	margin-top:0px;
 	padding-left:1.8em;
-	list-style-image:url("bullet-point.png");
+    list-style-type:none;
+    padding-left:0px;
 }
 
 .content li
 {
-	padding:0.6em;
+	padding-top:1ex;
 }
 
 .content .special

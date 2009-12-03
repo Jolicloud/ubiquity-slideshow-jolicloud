@@ -1,3 +1,12 @@
+ubiquity-slideshow-jolicloud (10jolicloud2) robby; urgency=low
+
+  * Initial theming
+  * New background
+  * Fix issue with slideshow testing
+  * UI improvement
+
+ -- Benjamin Ryzman <benjamin@jolicloud.org>  Thu, 03 Dec 2009 18:42:58 +0100
+
 ubiquity-slideshow-jolicloud (10jolicloud1) robby; urgency=low
 
   * Rebranded as ubiquity-slideshow-jolicloud

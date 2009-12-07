@@ -26,11 +26,11 @@ a
 	height:420px;
 	
 	overflow:hidden;
-	
+	/*
 	background-image:url('background.png');
 	background-repeat:no-repeat;
 	background-position:top left;
-	
+	*/
 	background-color:#333642;
 	
 	/*cursor:default;*/

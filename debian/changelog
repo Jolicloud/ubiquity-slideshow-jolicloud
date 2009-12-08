@@ -1,3 +1,10 @@
+ubiquity-slideshow-jolicloud (10jolicloud4) robby; urgency=low
+
+  * no background image, plain gray
+  * fix typo
+
+ -- Benjamin Ryzman <benjamin@jolicloud.org>  Tue, 08 Dec 2009 21:19:46 +0100
+
 ubiquity-slideshow-jolicloud (10jolicloud3) robby; urgency=low
 
   * New slides from Estelle

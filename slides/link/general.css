@@ -64,7 +64,7 @@ Title block is positioned at the top of a slide.
 	top:100px;
 	left:250px;
 
-	font-size:28px;
+	font-size:20px;
 	font-weight:normal;
 
 	padding:0;
@@ -83,8 +83,8 @@ right of a slide and is given a size of 64x64 pixels.
 	width:auto;
 	height:auto;
 	
-	top:120px;
-	left:0px;
+	top:100px;
+	left:25px;
 	
 	z-index:11;
 	border:0px;
@@ -102,9 +102,9 @@ appear :)
 	top:134px;
 	left:0px;
 
-    padding-right:60px;
+    padding-right:25px;
 	
-	font-size:14px;
+	font-size:12px;
 	
 	z-index:12;
 }

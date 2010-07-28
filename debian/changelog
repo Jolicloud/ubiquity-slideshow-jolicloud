@@ -1,3 +1,20 @@
+ubiquity-slideshow-jolicloud (10jolicloud5) robby; urgency=low
+
+  [ Benjamin Ryzman ]
+  * update wording and gfx
+  * disable computer generated reflexion
+  * yet another wording update
+
+  [ Romain Huet ]
+  * Minor wording and style changes on the slides
+
+  [ Benjamin Ryzman ]
+  * improved stylesheet
+  * ensure icons directory exists at build time
+  * updated wording
+
+ -- Benjamin Ryzman <benjamin@jolicloud.org>  Wed, 28 Jul 2010 18:17:59 +0200
+
 ubiquity-slideshow-jolicloud (10jolicloud4) robby; urgency=low
 
   * no background image, plain gray

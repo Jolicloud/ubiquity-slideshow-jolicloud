@@ -14,8 +14,8 @@ Hyperlink-style text
 */
 a
 {
-	color:blue;
-	font-style:italic;
+	color: white;
+/* 	font-style:italic; */
 }
 
 #container

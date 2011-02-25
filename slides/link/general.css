@@ -18,6 +18,12 @@ a
 /* 	font-style:italic; */
 }
 
+kbd
+{
+	font-family:sans-serif;
+	color: white;
+}
+
 #container
 {
 	position:absolute;

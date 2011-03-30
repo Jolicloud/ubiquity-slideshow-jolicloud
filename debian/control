@@ -5,6 +5,8 @@ Maintainer: Jolicloud Developers <developer@jolicloud.org>
 Build-Depends: cdbs, debhelper (>= 5)
 Build-Depends-Indep: translate-toolkit, gimp, python-utidylib
 Standards-Version: 3.8.3
+Vcs-Git: git://github.com/jolicloud/ubiquity-slideshow-jolicloud.git
+Vcs-Browser: https://github.com/jolicloud/ubiquity-slideshow-jolicloud
 
 Package: ubiquity-slideshow-jolicloud
 Architecture: all
